@@ -1,17 +1,24 @@
+package second;
+
 import java.awt.*;
 import java.awt.print.*;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.EmptyStackException;
+import java.util.Stack;
 
 import static javax.imageio.ImageIO.read;
 
-public class Print_Bill_Png implements Printable {
+public class Print_Bill implements Printable {
 
-    static List<File> aList = new ArrayList<File>();
+
     static int i = 0;
+
+    static Stack<File> aStack = new Stack<File>();
+    static String path1 = "";
+    static String path2 = "";
+
 
     /**
      * @graphics //打印的图形环境
@@ -39,21 +46,24 @@ public class Print_Bill_Png implements Printable {
 
                 //Image src = Toolkit.getDefaultToolkit().getImage("e:\\print\\screener\\1 (" + i + ").jpg");
                 try {
-                    Image src = read(new FileInputStream(new File("e:\\print\\bill\\1 (" + i + ").png")));
-                    graphics2D.drawImage(src, (int) x, (int) y, 580, 390, component);
+                    Image src = read(new FileInputStream(new File(path1)));
+                    //System.out.println(path1+"开始打印第一张");
+                    graphics2D.drawImage(src, (int) x, (int) y, 570, 400, component);
 
-                    int second_height = 400;
-                    graphics2D.drawLine((int) x, (int) (y + second_height + 1), (int) (x + 500), (int) (y + second_height + 1));
+                    int second_height = 420;
+                    graphics2D.drawLine((int) x, second_height, (int) (x + 570), second_height);
 
                     //第二张图
-                    Image src2 = read(new FileInputStream(new File("e:\\print\\bill\\1 (" + (i + 1) + ").png")));
-                    graphics2D.drawImage(src2, (int) x, (int) (y + second_height + 4), 580, 390, component);
+                    Image src2 = read(new FileInputStream(new File(path2)));
+                    //System.out.println(path2+"开始打印第二张");
+                    graphics2D.drawImage(src2, (int) x, (int) (y + second_height), 570, 400, component);
 
 
                     return PAGE_EXISTS;
 
                 } catch (IOException e) {
                     e.printStackTrace();
+                    return PAGE_EXISTS;
                 }
 
             default:
@@ -72,7 +82,7 @@ public class Print_Bill_Png implements Printable {
         paper.setImageableArea(10, 10, 580, 830);
         pageFormat.setPaper(paper);
 
-        book.append(new Print_Bill_Png(), pageFormat);
+        book.append(new Print_Bill(), pageFormat);
 
         PrinterJob printerJob = PrinterJob.getPrinterJob();
 
@@ -81,9 +91,22 @@ public class Print_Bill_Png implements Printable {
 
         File aFile = new File("e:\\print\\bill\\");
         if (aFile.exists() && aFile.isDirectory()) {
-            Find_Picture.getAllFile(aFile, aList);
-            for (i = 1; i <= aList.size(); i += 2) {
-                printerJob.print();
+            Find_Picture.getAllFile(aFile, aStack);
+            //System.out.println(aStack.size());
+            int len = aStack.size();
+            for (i = 1; i <= len; i += 2) {
+                //System.out.println("第" + i + "次开始咯");
+                try {
+                    path1 = aStack.pop().toString();
+                    path2 = aStack.pop().toString();
+                    printerJob.print();
+                } catch (EmptyStackException e) {
+                    printerJob.print();
+                } finally {
+                    path1 = "";
+                    path2 = "";
+                }
+                //System.out.println("第" + i + "次循环结束咯");
             }
         }
     }

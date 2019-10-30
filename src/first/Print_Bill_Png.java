@@ -1,3 +1,5 @@
+package first;
+
 import java.awt.*;
 import java.awt.print.*;
 import java.io.File;
@@ -6,9 +8,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import static javax.imageio.ImageIO.*;
+import static javax.imageio.ImageIO.read;
 
-public class Print_Screener_Jpg implements Printable {
+public class Print_Bill_Png implements Printable {
 
     static List<File> aList = new ArrayList<File>();
     static int i = 0;
@@ -39,24 +41,16 @@ public class Print_Screener_Jpg implements Printable {
 
                 //Image src = Toolkit.getDefaultToolkit().getImage("e:\\print\\screener\\1 (" + i + ").jpg");
                 try {
-                    Image src = read(new FileInputStream(new File("e:\\print\\screener\\1 (" + i + ").jpg")));
-                    graphics2D.drawImage(src, (int) x, (int) y, 250, 390, component);
+                    Image src = read(new FileInputStream(new File("e:\\print\\bill\\1 (" + i + ").png")));
+                    graphics2D.drawImage(src, (int) x, (int) y, 580, 390, component);
 
-
-                    //第二张图
-                    Image src2 = read(new FileInputStream(new File("e:\\print\\screener\\1 (" + (i + 1) + ").jpg")));
-                    graphics2D.drawImage(src2, 280, (int) y, 250, 390, component);
                     int second_height = 400;
-
                     graphics2D.drawLine((int) x, (int) (y + second_height + 1), (int) (x + 500), (int) (y + second_height + 1));
 
-                    //第三张图
-                    Image src3 = read(new FileInputStream(new File("e:\\print\\screener\\1 (" + (i + 2) + ").jpg")));
-                    graphics2D.drawImage(src3, (int) x, (int) (y + second_height + 4), 250, 390, component);
+                    //第二张图
+                    Image src2 = read(new FileInputStream(new File("e:\\print\\bill\\1 (" + (i + 1) + ").png")));
+                    graphics2D.drawImage(src2, (int) x, (int) (y + second_height + 4), 580, 390, component);
 
-                    //第四张图
-                    Image src4 = read(new FileInputStream(new File("e:\\print\\screener\\1 (" + (i + 3) + ").jpg")));
-                    graphics2D.drawImage(src4, (int) 280, (int) (y + second_height + 4), 250, 390, component);
 
                     return PAGE_EXISTS;
 
@@ -80,17 +74,17 @@ public class Print_Screener_Jpg implements Printable {
         paper.setImageableArea(10, 10, 580, 830);
         pageFormat.setPaper(paper);
 
-        book.append(new Print_Screener_Jpg(), pageFormat);
+        book.append(new Print_Bill_Png(), pageFormat);
 
         PrinterJob printerJob = PrinterJob.getPrinterJob();
 
         printerJob.setPageable(book);
 
 
-        File aFile = new File("e:\\print\\screener\\");
+        File aFile = new File("e:\\print\\bill\\");
         if (aFile.exists() && aFile.isDirectory()) {
             Find_Picture.getAllFile(aFile, aList);
-            for (i = 1; i <= aList.size(); i += 4) {
+            for (i = 1; i <= aList.size(); i += 2) {
                 printerJob.print();
             }
         }

@@ -1,5 +1,7 @@
+package second;
+
 import java.io.File;
-import java.util.List;
+import java.util.Stack;
 
 public class Find_Picture {
 
@@ -16,16 +18,16 @@ public class Find_Picture {
 //     || fileName.endsWith(".png")
 //             || fileName.endsWith(".gif")
 
-    public static void getAllFile(File aFile, List<File> aList) {
+    public static void getAllFile(File aFile, Stack<File> aStack) {
         File[] files = aFile.listFiles();
         if (files != null) {
             for (File file : files) {
                 if (file.isDirectory()) {
-                    getAllFile(file, aList);
+                    getAllFile(file, aStack);
                 } else {
                     String fileName = file.getName();
                     if (fileName.endsWith(".jpg") || fileName.endsWith(".png") || fileName.endsWith(".gif")) {
-                        aList.add(file);
+                        aStack.push(file);
                     }
                 }
             }
