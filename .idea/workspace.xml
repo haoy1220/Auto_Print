@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90997756-fe82-4ec8-bcc0-a59a5870fbd3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Print_Picture_jar/Print_Picture.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Print_Picture_jar/Print_Picture.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/third/Interface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/third/Interface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/third/Print_Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/third/Print_Bill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/third/Print_Screener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/third/Print_Screener.java" afterDir="false" />
-    </list>
+    <list default="true" id="90997756-fe82-4ec8-bcc0-a59a5870fbd3" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +126,7 @@
       <workItem from="1572425687878" duration="572000" />
       <workItem from="1572426832637" duration="1082000" />
       <workItem from="1572482531010" duration="21381000" />
-      <workItem from="1572509510123" duration="274000" />
+      <workItem from="1572509510123" duration="648000" />
     </task>
     <servers />
   </component>
