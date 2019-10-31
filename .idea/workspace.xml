@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90997756-fe82-4ec8-bcc0-a59a5870fbd3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/second/Find_Picture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/second/Print_Bill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/second/Print_Screener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Print_Picture_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/third/Find_Picture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/third/Interface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/third/PrintAll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/third/Print_Bill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/third/Print_Screener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Find_Picture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/first/Find_Picture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Print_Bill_Jpg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/first/Print_Bill_Jpg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Print_Bill_Png.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/first/Print_Bill_Png.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Print_Screener_Jpg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/first/Print_Screener_Jpg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Print_Screener_Png.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/first/Print_Screener_Png.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/second/Print_Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/second/Print_Bill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/second/Print_Screener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/second/Print_Screener.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,23 +19,35 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1SufRNAA3HzEIo8sOXQg8JXLos1" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/second" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/third" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\Print_Picture\src\third" />
       <recent name="E:\IdeaProjects\Print_Picture\src\second" />
     </key>
   </component>
@@ -50,7 +63,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Print_Bill">
+  <component name="RunManager" selected="Application.Interface">
+    <configuration name="Interface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="third.Interface" />
+      <module name="Print_Picture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="third.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Print_Bill" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="second.Print_Bill" />
       <module name="Print_Picture" />
@@ -80,6 +106,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Interface" />
         <item itemvalue="Application.Print_Bill" />
         <item itemvalue="Application.Print_Bill_Jpg" />
         <item itemvalue="Application.Print_Screener_Jpg" />
@@ -98,6 +125,8 @@
       <updated>1572418391414</updated>
       <workItem from="1572418395465" duration="2754000" />
       <workItem from="1572425687878" duration="572000" />
+      <workItem from="1572426832637" duration="1082000" />
+      <workItem from="1572482531010" duration="9961000" />
     </task>
     <servers />
   </component>
@@ -109,7 +138,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

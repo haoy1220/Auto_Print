@@ -96,7 +96,7 @@ public class Print_Screener implements Printable {
         printerJob.setPageable(book);
 
 
-        File aFile = new File("e:\\print\\screener\\");
+        File aFile = new File(".\\截图\\");
         if (aFile.exists() && aFile.isDirectory()) {
             Find_Picture.getAllFile(aFile, aStack);
             //System.out.println(aStack.size());

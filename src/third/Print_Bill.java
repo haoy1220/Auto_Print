@@ -1,4 +1,4 @@
-package second;
+package third;
 
 import java.awt.*;
 import java.awt.print.*;
@@ -72,7 +72,7 @@ public class Print_Bill implements Printable {
         }
     }
 
-    public static void main(String[] args) throws PrinterException {
+    public void printBill(String filePath) throws PrinterException {
         Book book = new Book();
         PageFormat pageFormat = new PageFormat();
         pageFormat.setOrientation(PageFormat.PORTRAIT);
@@ -89,25 +89,29 @@ public class Print_Bill implements Printable {
         printerJob.setPageable(book);
 
 
-        File aFile = new File(".\\电子发票\\");
+        File aFile = new File(filePath);
         if (aFile.exists() && aFile.isDirectory()) {
             Find_Picture.getAllFile(aFile, aStack);
             //System.out.println(aStack.size());
             int len = aStack.size();
+            boolean a = printerJob.printDialog();
+            System.out.println("开始打印电子发票：");
             for (i = 1; i <= len; i += 2) {
-                //System.out.println("第" + i + "次开始咯");
+                System.out.println("电子发票：第" + (i / 2 + 1) + "页开始打印");
                 try {
                     path1 = aStack.pop().toString();
                     path2 = aStack.pop().toString();
                     printerJob.print();
                 } catch (EmptyStackException e) {
                     printerJob.print();
+                    System.out.println("第" + (i / 2 + 1) + "页没打满整页！");
                 } finally {
                     path1 = "";
                     path2 = "";
                 }
-                //System.out.println("第" + i + "次循环结束咯");
+                System.out.println("电子发票：第" + (i / 2 + 1) + "页打印结束咯");
             }
+            System.out.println("电子发票全部打印完成！！！");
         }
     }
 }
