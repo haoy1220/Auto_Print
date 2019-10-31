@@ -1,15 +1,11 @@
 package third;
 
 import javax.swing.*;
-import javax.swing.event.DocumentEvent;
-import javax.swing.event.DocumentListener;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.print.PrinterException;
 import java.awt.print.PrinterJob;
 import java.io.File;
-import java.io.IOException;
-import java.io.OutputStream;
 import java.io.PrintStream;
 
 public class Interface extends JFrame {
@@ -158,7 +154,7 @@ public class Interface extends JFrame {
 
 
 
-        JTextArea tips = new JTextArea(18, 45);
+        JTextArea tips = new JTextArea(16, 45);
         tips.setLocation(10, 300);
         tips.setLineWrap(true);
         tips.setEditable(false);
@@ -166,8 +162,6 @@ public class Interface extends JFrame {
         System.setOut(new PrintStream(out));//设置输出重定向
         System.setErr(new PrintStream(out));//将错误输出也重定向,用于e.pritnStackTrace
         JScrollPane scrollPane = new JScrollPane(tips);
-
-
         tips.setSelectionStart(tips.getText().length());
 
         JButton clearAll = new JButton("清空记录");
