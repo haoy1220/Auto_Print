@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Auto_Print:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Auto_Print_jar</output-path>
+    <root id="archive" name="Auto_Print.jar">
+      <element id="module-output" name="Print_Picture" />
+    </root>
+  </artifact>
+</component>

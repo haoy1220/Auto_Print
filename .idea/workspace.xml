@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90997756-fe82-4ec8-bcc0-a59a5870fbd3" name="Default Changelist" comment="" />
+    <list default="true" id="90997756-fe82-4ec8-bcc0-a59a5870fbd3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Print_Picture_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Auto_Print_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/third/Find_Picture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/third/Find_Picture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/third/JTextAreaOutputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/third/JTextAreaOutputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/third/Print_Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/third/Print_Bill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/third/Print_Screener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/third/Print_Screener.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +134,7 @@
       <workItem from="1572425687878" duration="572000" />
       <workItem from="1572426832637" duration="1082000" />
       <workItem from="1572482531010" duration="21381000" />
-      <workItem from="1572509510123" duration="648000" />
+      <workItem from="1572509510123" duration="2954000" />
     </task>
     <servers />
   </component>
@@ -145,26 +153,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/third/Find_Picture.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/third/Print_Bill.java</url>
-          <line>95</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/third/Print_Bill.java</url>
-          <line>94</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

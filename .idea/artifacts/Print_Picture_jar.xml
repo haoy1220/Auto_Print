@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="Print_Picture:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/Print_Picture_jar</output-path>
-    <root id="archive" name="Print_Picture.jar">
-      <element id="module-output" name="Print_Picture" />
-    </root>
-  </artifact>
-</component>

@@ -100,29 +100,34 @@ public class Print_Screener implements Printable {
             Find_Picture.getAllFile(aFile, aStack);
             //System.out.println(aStack.size());
             int len = aStack.size();
+
 //            boolean a = printerJob.printDialog();
-            System.out.println("*****开始打印手机截图：*****");
-            for (i = 1; i <= len; i += 4) {
-                System.out.println("手机截图：第" + (i / 4 + 1) + "页开始打印");
-                try {
-                    path1 = aStack.pop().toString();
-                    path2 = aStack.pop().toString();
-                    path3 = aStack.pop().toString();
-                    path4 = aStack.pop().toString();
-                    printerJob.print();
-                } catch (EmptyStackException e) {
-                    printerJob.print();
-                    System.out.println("*第" + (i / 4 + 1) + "页只剩" + (i % 4) + "张图片，没打满整页！*");
-                } finally {
-                    path1 = "";
-                    path2 = "";
-                    path3 = "";
-                    path4 = "";
+            if (len == 0) {
+                System.out.println("！！！该文件夹没有图片文件！！！请重新选择文件夹");
+            } else {
+                System.out.println("*****一共有" + len + "张手机截图，现在开始打印：*****");
+                for (i = 1; i <= len; i += 4) {
+                    System.out.println("手机截图：第" + (i / 4 + 1) + "页开始打印");
+                    try {
+                        path1 = aStack.pop().toString();
+                        path2 = aStack.pop().toString();
+                        path3 = aStack.pop().toString();
+                        path4 = aStack.pop().toString();
+                        printerJob.print();
+                    } catch (EmptyStackException e) {
+                        printerJob.print();
+                        System.out.println("*第" + (i / 4 + 1) + "页只剩" + (len - i + 1) + "张图片，没打满整页！*");
+                    } finally {
+                        path1 = "";
+                        path2 = "";
+                        path3 = "";
+                        path4 = "";
+                    }
+                    System.out.println("手机截图：第" + (i / 4 + 1) + "页打印结束");
                 }
-                System.out.println("手机截图：第" + (i / 4 + 1) + "页打印结束");
+                System.out.println("*****手机截图全部打印完成！！！*****\n\n");
             }
-            System.out.println("*****手机截图全部打印完成！！！*****\n\n");
-        }else {
+        } else {
             System.out.println("！！！手机截图文件夹为空！！！请重新选择文件夹");
         }
     }
