@@ -1,6 +1,8 @@
 package third;
 
+import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionListener;
 import java.awt.print.*;
 import java.io.File;
 import java.io.FileInputStream;
@@ -62,7 +64,7 @@ public class Print_Bill implements Printable {
                     return PAGE_EXISTS;
 
                 } catch (IOException e) {
-                    e.printStackTrace();
+                    //e.printStackTrace();
                     return PAGE_EXISTS;
                 }
 
@@ -72,7 +74,7 @@ public class Print_Bill implements Printable {
         }
     }
 
-    public void printBill(String filePath) throws PrinterException {
+    public void printBill(String filePath, PrinterJob printerJob) throws PrinterException {
         Book book = new Book();
         PageFormat pageFormat = new PageFormat();
         pageFormat.setOrientation(PageFormat.PORTRAIT);
@@ -84,7 +86,7 @@ public class Print_Bill implements Printable {
 
         book.append(new Print_Bill(), pageFormat);
 
-        PrinterJob printerJob = PrinterJob.getPrinterJob();
+//        PrinterJob printerJob = PrinterJob.getPrinterJob();
 
         printerJob.setPageable(book);
 
@@ -94,24 +96,28 @@ public class Print_Bill implements Printable {
             Find_Picture.getAllFile(aFile, aStack);
             //System.out.println(aStack.size());
             int len = aStack.size();
-            boolean a = printerJob.printDialog();
-            System.out.println("开始打印电子发票：");
-            for (i = 1; i <= len; i += 2) {
-                System.out.println("电子发票：第" + (i / 2 + 1) + "页开始打印");
-                try {
-                    path1 = aStack.pop().toString();
-                    path2 = aStack.pop().toString();
-                    printerJob.print();
-                } catch (EmptyStackException e) {
-                    printerJob.print();
-                    System.out.println("第" + (i / 2 + 1) + "页没打满整页！");
-                } finally {
-                    path1 = "";
-                    path2 = "";
+//            boolean a = printerJob.printDialog();
+            if (len == 0) {
+                System.out.println("！！！电子发票文件夹为空！！！请重新选择文件夹");
+            } else {
+                System.out.println("*****开始打印电子发票：*****");
+                for (i = 1; i <= len; i += 2) {
+                    System.out.println("电子发票：第" + (i / 2 + 1) + "页开始打印");
+                    try {
+                        path1 = aStack.pop().toString();
+                        path2 = aStack.pop().toString();
+                        printerJob.print();
+                    } catch (EmptyStackException e) {
+                        printerJob.print();
+                        System.out.println("*第" + (i / 2 + 1) + "页只剩" + (i % 2) + "张图片，没打满整页！*");
+                    } finally {
+                        path1 = "";
+                        path2 = "";
+                    }
+                    System.out.println("电子发票：第" + (i / 2 + 1) + "页打印结束咯");
                 }
-                System.out.println("电子发票：第" + (i / 2 + 1) + "页打印结束咯");
+                System.out.println("*****电子发票全部打印完成！！！*****\n\n");
             }
-            System.out.println("电子发票全部打印完成！！！");
         }
     }
 }
