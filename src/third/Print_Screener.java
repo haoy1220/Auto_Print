@@ -5,6 +5,7 @@ import java.awt.print.*;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.util.EmptyStackException;
 import java.util.Stack;
 
@@ -103,11 +104,11 @@ public class Print_Screener implements Printable {
 
 //            boolean a = printerJob.printDialog();
             if (len == 0) {
-                System.out.println("！！！该文件夹没有图片文件！！！请重新选择文件夹");
+                System.out.println(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss ：").format(System.currentTimeMillis()) + "！！！该文件夹没有图片文件！！！请重新选择文件夹");
             } else {
-                System.out.println("*****一共有" + len + "张手机截图，现在开始打印：*****");
+                System.out.println(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss ：").format(System.currentTimeMillis()) + "*****一共有" + len + "张手机截图，现在开始打印：*****");
                 for (i = 1; i <= len; i += 4) {
-                    System.out.println("手机截图：第" + (i / 4 + 1) + "页开始打印");
+                    System.out.println(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss ：").format(System.currentTimeMillis()) + "手机截图：第" + (i / 4 + 1) + "页开始打印");
                     try {
                         path1 = aStack.pop().toString();
                         path2 = aStack.pop().toString();
@@ -116,19 +117,19 @@ public class Print_Screener implements Printable {
                         printerJob.print();
                     } catch (EmptyStackException e) {
                         printerJob.print();
-                        System.out.println("*第" + (i / 4 + 1) + "页只剩" + (len - i + 1) + "张图片，没打满整页！*");
+                        System.out.println(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss ：").format(System.currentTimeMillis()) + "*第" + (i / 4 + 1) + "页只剩" + (len - i + 1) + "张图片，没打满整页！*");
                     } finally {
                         path1 = "";
                         path2 = "";
                         path3 = "";
                         path4 = "";
                     }
-                    System.out.println("手机截图：第" + (i / 4 + 1) + "页打印结束");
+                    System.out.println(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss ：").format(System.currentTimeMillis()) + "手机截图：第" + (i / 4 + 1) + "页打印结束");
                 }
-                System.out.println("*****手机截图全部打印完成！！！*****\n\n");
+                System.out.println(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss ：").format(System.currentTimeMillis()) + "*****手机截图全部打印完成！！！*****\n\n");
             }
         } else {
-            System.out.println("！！！手机截图文件夹为空！！！请重新选择文件夹");
+            System.out.println(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss ：").format(System.currentTimeMillis()) + "！！！手机截图文件夹为空或不存在！！！请重新选择文件夹");
         }
     }
 }

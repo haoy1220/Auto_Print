@@ -7,6 +7,7 @@ import java.awt.print.PrinterException;
 import java.awt.print.PrinterJob;
 import java.io.File;
 import java.io.PrintStream;
+import java.text.SimpleDateFormat;
 
 public class Interface extends JFrame {
 
@@ -28,6 +29,10 @@ public class Interface extends JFrame {
         this.setLocation(350, 100);
 
 
+        JTextArea tips = new JTextArea(16, 45);
+        JTextAreaOutputStream out = new JTextAreaOutputStream(tips);
+        System.setOut(new PrintStream(out));//设置输出重定向
+        System.setErr(new PrintStream(out));//将错误输出也重定向,用于e.pritnStackTrace
         //发票模块
         JPanel panel = new JPanel();
         JLabel billLabel = new JLabel("电子发票路径：");
@@ -49,11 +54,11 @@ public class Interface extends JFrame {
 
                 int result = jFileChooser.showOpenDialog(null);
 //                jFileChooser.showDialog(new JLabel(), "选择");
-                if(result == jFileChooser.APPROVE_OPTION){
+                if (result == jFileChooser.APPROVE_OPTION) {
                     File file = jFileChooser.getSelectedFile();
                     billPath = file.getAbsolutePath().toString();
                     billText.setText(billPath);
-                }else {
+                } else {
 
                 }
             }
@@ -65,13 +70,20 @@ public class Interface extends JFrame {
         printBill.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                try {
-                    boolean a = printerJob.printDialog();
-                    if (a) {
-                        new Print_Bill().printBill(billText.getText().toString(), printerJob);
-                    }
-                } catch (PrinterException ex) {
-                    ex.printStackTrace();
+                boolean a = printerJob.printDialog();
+                if (a) {
+                    new Thread(new Runnable() {
+                        @Override
+                        public void run() {
+                            try {
+                                new Print_Bill().printBill(billText.getText().toString(), printerJob);
+                            } catch (PrinterException ex) {
+                                ex.printStackTrace();
+                            }
+                        }
+                    }).start();
+                } else {
+                    System.out.println(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss ：").format(System.currentTimeMillis()) + "***你取消了打印***");
                 }
             }
         });
@@ -104,11 +116,11 @@ public class Interface extends JFrame {
 
                 int result = jFileChooser.showOpenDialog(null);
 //                jFileChooser.showDialog(new JLabel(), "选择");
-                if(result == jFileChooser.APPROVE_OPTION){
+                if (result == jFileChooser.APPROVE_OPTION) {
                     File file = jFileChooser.getSelectedFile();
                     screenerPath = file.getAbsolutePath().toString();
                     screenerText.setText(screenerPath);
-                }else {
+                } else {
 
                 }
             }
@@ -120,13 +132,20 @@ public class Interface extends JFrame {
         printScreener.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                try {
-                    boolean a = printerJob.printDialog();
-                    if (a) {
-                        new Print_Screener().printScreener(screenerText.getText().toString(), printerJob);
-                    }
-                } catch (PrinterException ex) {
-                    ex.printStackTrace();
+                boolean a = printerJob.printDialog();
+                if (a) {
+                    new Thread(new Runnable() {
+                        @Override
+                        public void run() {
+                            try {
+                                new Print_Screener().printScreener(screenerText.getText().toString(), printerJob);
+                            } catch (PrinterException ex) {
+                                ex.printStackTrace();
+                            }
+                        }
+                    }).start();
+                } else {
+                    System.out.println(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss ：").format(System.currentTimeMillis()) + "***你取消了打印***");
                 }
             }
         });
@@ -139,30 +158,37 @@ public class Interface extends JFrame {
         printAll.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                try {
-                    boolean a = printerJob.printDialog();
-                    if (a) {
-                        new Print_Bill().printBill(billText.getText().toString(), printerJob);
-                        new Print_Screener().printScreener(screenerText.getText().toString(), printerJob);
-                    }
-                } catch (PrinterException ex) {
-                    ex.printStackTrace();
+                boolean a = printerJob.printDialog();
+                if (a) {
+                    new Thread(new Runnable() {
+                        @Override
+                        public void run() {
+                            try {
+                                new Print_Bill().printBill(billText.getText().toString(), printerJob);
+
+                                new Print_Screener().printScreener(screenerText.getText().toString(), printerJob);
+                            } catch (PrinterException ex) {
+                                ex.printStackTrace();
+                            }
+                        }
+                    }).start();
+                } else {
+                    System.out.println(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss ：").format(System.currentTimeMillis()) + "***你取消了打印***");
                 }
             }
         });
         panel.add(printAll);
 
 
-
-        JTextArea tips = new JTextArea(16, 45);
         tips.setLocation(10, 300);
         tips.setLineWrap(true);
         tips.setEditable(false);
-        JTextAreaOutputStream out = new JTextAreaOutputStream(tips);
-        System.setOut(new PrintStream(out));//设置输出重定向
-        System.setErr(new PrintStream(out));//将错误输出也重定向,用于e.pritnStackTrace
-        JScrollPane scrollPane = new JScrollPane(tips);
+//        JTextAreaOutputStream out = new JTextAreaOutputStream(tips);
+//        System.setOut(new PrintStream(out));//设置输出重定向
+//        System.setErr(new PrintStream(out));//将错误输出也重定向,用于e.pritnStackTrace
         tips.setSelectionStart(tips.getText().length());
+        JScrollPane scrollPane = new JScrollPane(tips);
+
 
         JButton clearAll = new JButton("清空记录");
         clearAll.setBounds(150, 120, 30, 25);
