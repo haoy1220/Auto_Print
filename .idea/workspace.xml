@@ -2,27 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90997756-fe82-4ec8-bcc0-a59a5870fbd3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Print_Picture_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/fontbox-2.0.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/pdfbox-2.0.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/four/Find_Picture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/four/Interface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/four/JTextAreaOutputStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/four/PDF_Picture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/four/Print_Bill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/four/Print_Full.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/four/Print_Screener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Auto_Print_jar.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/five/Find_Picture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/five/Interface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/five/JTextAreaOutputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/five/Main_UI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/five/PDF_Picture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/five/Print_Bill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/five/Print_Screener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Print_Picture.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Print_Picture.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Find_Picture.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/third/Find_Picture.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/Auto_Print.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/third/Find_Picture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/third/Find_Picture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/third/Interface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/third/Interface.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,18 +39,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/five" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\Print_Picture\src\five" />
       <recent name="E:\IdeaProjects\Print_Picture\lib" />
       <recent name="E:\IdeaProjects\Print_Picture\src\four" />
       <recent name="E:\IdeaProjects\Print_Picture\test" />
       <recent name="E:\IdeaProjects\Print_Picture\src" />
-      <recent name="E:\IdeaProjects\Print_Picture\src\third" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="four" />
@@ -87,13 +74,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Interface (1)">
-    <configuration name="Interface (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="four.Interface" />
+  <component name="RunManager" selected="Application.Main_UI">
+    <configuration name="Interface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="third.Interface" />
       <module name="Print_Picture" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="four.*" />
+          <option name="PATTERN" value="third.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,11 +89,24 @@
       </method>
     </configuration>
     <configuration name="Interface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="third.Interface" />
+      <option name="MAIN_CLASS_NAME" value="five.Interface" />
       <module name="Print_Picture" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="third.*" />
+          <option name="PATTERN" value="five.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main_UI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="five.Main_UI" />
+      <module name="Print_Picture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="five.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,20 +134,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Print_Screener_Jpg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="first.Print_Screener_Jpg" />
-      <module name="Print_Picture" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main_UI" />
         <item itemvalue="Application.Interface (1)" />
         <item itemvalue="Application.Interface" />
         <item itemvalue="Application.Print_Bill" />
         <item itemvalue="Application.Print_Bill_Jpg" />
-        <item itemvalue="Application.Print_Screener_Jpg" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +161,7 @@
       <workItem from="1572509510123" duration="4078000" />
       <workItem from="1572570341564" duration="2728000" />
       <workItem from="1572573612527" duration="345000" />
-      <workItem from="1572578053901" duration="12255000" />
+      <workItem from="1572578053901" duration="13781000" />
     </task>
     <servers />
   </component>
