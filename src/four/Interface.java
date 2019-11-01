@@ -1,4 +1,4 @@
-package third;
+package four;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -6,6 +6,7 @@ import java.awt.event.ActionListener;
 import java.awt.print.PrinterException;
 import java.awt.print.PrinterJob;
 import java.io.File;
+import java.io.IOException;
 import java.io.PrintStream;
 import java.text.SimpleDateFormat;
 
@@ -24,7 +25,7 @@ public class Interface extends JFrame {
     public Interface() {
 
         //frame属性设置
-        super("自动排版打印工具v1.0--综测二部 温志浩");
+        super("自动排版打印工具v1.1--综测二部 温志浩");
         this.setSize(558, 450);
         this.setLocation(350, 100);
 
@@ -32,7 +33,7 @@ public class Interface extends JFrame {
         JTextArea tips = new JTextArea(16, 45);
         JTextAreaOutputStream out = new JTextAreaOutputStream(tips);
         System.setOut(new PrintStream(out));//设置输出重定向
-        System.setErr(new PrintStream(out));//将错误输出也重定向,用于e.pritnStackTrace
+//        System.setErr(new PrintStream(out));//将错误输出也重定向,用于e.pritnStackTrace
         //发票模块
         JPanel panel = new JPanel();
         JLabel billLabel = new JLabel("电子发票路径：");
@@ -77,7 +78,7 @@ public class Interface extends JFrame {
                         public void run() {
                             try {
                                 new Print_Bill().printBill(billText.getText().toString(), printerJob);
-                            } catch (PrinterException ex) {
+                            } catch (PrinterException | IOException ex) {
                                 ex.printStackTrace();
                             }
                         }
@@ -128,7 +129,7 @@ public class Interface extends JFrame {
         panel.add(selectScreener);
 
         JButton printScreener = new JButton("只打印截图");
-        printScreener.setBounds(340, 80, 30, 25);
+        printScreener.setBounds(340, 50, 30, 25);
         printScreener.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -139,7 +140,7 @@ public class Interface extends JFrame {
                         public void run() {
                             try {
                                 new Print_Screener().printScreener(screenerText.getText().toString(), printerJob);
-                            } catch (PrinterException ex) {
+                            } catch (PrinterException | IOException ex) {
                                 ex.printStackTrace();
                             }
                         }
@@ -167,7 +168,7 @@ public class Interface extends JFrame {
                                 new Print_Bill().printBill(billText.getText().toString(), printerJob);
 
                                 new Print_Screener().printScreener(screenerText.getText().toString(), printerJob);
-                            } catch (PrinterException ex) {
+                            } catch (PrinterException | IOException ex) {
                                 ex.printStackTrace();
                             }
                         }

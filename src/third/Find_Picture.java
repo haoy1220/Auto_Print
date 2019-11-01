@@ -26,7 +26,9 @@ public class Find_Picture {
                     getAllFile(file, aStack);
                 } else {
                     String fileName = file.getName();
-                    if (fileName.endsWith(".jpg") || fileName.endsWith(".png") || fileName.endsWith(".gif")) {
+                    if (fileName.endsWith(".jpg") || fileName.endsWith(".png") || fileName.endsWith(".gif") || fileName.endsWith(".bmp") || fileName.endsWith(".jpeg")
+                            || fileName.endsWith(".JPG") || fileName.endsWith(".PNG") || fileName.endsWith(".GIF") || fileName.endsWith(".BMP") || fileName.endsWith(".JPEG")
+                            || fileName.endsWith(".pdf") || fileName.endsWith(".PDF")) {
                         aStack.push(file);
                     }
                 }
