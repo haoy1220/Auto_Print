@@ -29,7 +29,7 @@ public class Interface extends JFrame {
         this.setLocation(350, 100);
 
 
-        JTextArea tips = new JTextArea(16, 45);
+        final JTextArea tips = new JTextArea(16, 45);
         JTextAreaOutputStream out = new JTextAreaOutputStream(tips);
         System.setOut(new PrintStream(out));//设置输出重定向
         System.setErr(new PrintStream(out));//将错误输出也重定向,用于e.pritnStackTrace
@@ -39,7 +39,7 @@ public class Interface extends JFrame {
         billLabel.setBounds(10, 20, 120, 25);
         panel.add(billLabel);
 
-        JTextField billText = new JTextField(20);
+        final JTextField billText = new JTextField(20);
         billText.setBounds(140, 20, 165, 25);
         billText.setText(billPath);
         panel.add(billText);
@@ -94,7 +94,7 @@ public class Interface extends JFrame {
         screenerLabel.setBounds(10, 50, 120, 25);
         panel.add(screenerLabel);
 
-        JTextField screenerText = new JTextField(20);
+        final JTextField screenerText = new JTextField(20);
         screenerText.setBounds(140, 50, 165, 25);
         screenerText.setText(screenerPath);
         panel.add(screenerText);

@@ -2,68 +2,130 @@ package five;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.print.PrinterException;
+import java.awt.print.PrinterJob;
+import java.io.File;
+import java.io.IOException;
+import java.io.PrintStream;
+import java.text.SimpleDateFormat;
+
 
 public class Main_UI extends JFrame {
     private JPanel jPanel;
+    static PrinterJob printerJob = PrinterJob.getPrinterJob();
+
     private JScrollPane jScrollPane;
-    static String fullPath = ".\\";
+    private static String fullPath = ".\\电子发票\\";
+    private static String halfPath = ".\\电子发票\\";
+    private static String fourPath = ".\\电子发票\\";
+
+    private JLabel fullLabel;
+    private JTextField fullText;
+    private JButton selectFull;
+    private JButton printFull;
+
+    private JLabel halfLabel;
+    private JTextField halfText;
+    private JButton selectHalf;
+    private JButton printHalf;
+
+    private JLabel fourLabel;
+    private JTextField fourText;
+    private JButton selectFour;
+    private JButton printFour;
+
+    private JButton printAll;
+    private JButton clearAll;
+    private JTextArea tips;
+
 
     public static void main(String[] args) {
         new Main_UI();
     }
 
-    public Main_UI(){
+    public Main_UI() {
         super("自动排版打印工具v1.1--综测二部 温志浩");
-        init();
+        this.init();
+        this.initListener();
 
     }
-    public void init(){
+
+    public void init() {
         {
             jPanel = new JPanel();
             jScrollPane = new JScrollPane();
         }
-        //
+        //整页
         {
-            JLabel fullLabel = new JLabel("整页打印路径");
-            JTextField fullText = new JTextField(fullPath);
-            JButton selectFull = new JButton("选择文件夹");
-            JButton fullPrint = new JButton("打印");
+            fullLabel = new JLabel("整页打印路径");
+            fullText = new JTextField(fullPath,20);
+            selectFull = new JButton("选择文件夹");
+            printFull = new JButton("打印");
 
             jPanel.add(fullLabel);
             jPanel.add(fullText);
             jPanel.add(selectFull);
-            jPanel.add(fullPrint);
+            jPanel.add(printFull);
 
         }
-        //
+
+        //半页
         {
-            JLabel halfLabel = new JLabel("半页打印路径");
-            JTextField halfText = new JTextField(fullPath);
-            JButton selectHalf = new JButton("选择文件夹");
-            JButton halfPrint = new JButton("打印");
+            halfLabel = new JLabel("半页打印路径");
+            halfText = new JTextField(halfPath,20);
+            selectHalf = new JButton("选择文件夹");
+            printHalf = new JButton("打印");
 
             jPanel.add(halfLabel);
             jPanel.add(halfText);
             jPanel.add(selectHalf);
-            jPanel.add(halfPrint);
+            jPanel.add(printHalf);
 
         }
-        //
-        {
-            JLabel fullLabel = new JLabel("1/4页打印路径");
-            JTextField fullText = new JTextField(fullPath);
-            JButton selectFull = new JButton("选择文件夹");
-            JButton fullPrint = new JButton("打印");
 
-            jPanel.add(fullLabel);
-            jPanel.add(fullText);
-            jPanel.add(selectFull);
-            jPanel.add(fullPrint);
+        //1/4页
+        {
+            fourLabel = new JLabel("1/4页打印路径");
+            fourText = new JTextField(fourPath,20);
+            selectFour = new JButton("选择文件夹");
+            printFour = new JButton("打印");
+
+            jPanel.add(fourLabel);
+            jPanel.add(fourText);
+            jPanel.add(selectFour);
+            jPanel.add(printFour);
 
         }
+
+        //打印全部和清空记录
         {
-            this.add(jPanel);
-            this.setSize(800, 600);
+//            printAll = new JButton("打印全部");
+            clearAll = new JButton("清空记录");
+
+//            jPanel.add(printAll);
+            jPanel.add(clearAll);
+        }
+        //记录框
+        {
+            tips = new JTextArea(16, 45);
+            tips.setText("说明：\n" +
+                    "1.");
+            JTextAreaOutputStream out = new JTextAreaOutputStream(tips);
+            System.setOut(new PrintStream(out));//设置输出重定向
+            tips.setLocation(10, 300);
+            tips.setLineWrap(true);
+            tips.setEditable(false);
+            tips.setSelectionStart(tips.getText().length());
+            jScrollPane = new JScrollPane(tips);
+            jPanel.add(jScrollPane);
+        }
+        {
+            this.setVisible(true);
+            this.setContentPane(jPanel);
+//            this.add(jPanel);
+            this.setSize(560, 450);
             // 屏幕居中
             int windowWidth = this.getWidth(); // 获得窗口宽
             int windowHeight = this.getHeight(); // 获得窗口高
@@ -73,7 +135,106 @@ public class Main_UI extends JFrame {
             int screenHeight = screenSize.height; // 获取屏幕的高
             this.setLocation(screenWidth / 2 - windowWidth / 2, screenHeight
                     / 2 - windowHeight / 2);
-            this.setVisible(true);
+
+            this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        }
+    }
+
+    public void initListener() {
+
+
+        selectFull.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                selectFile(fullText);
+            }
+        });
+
+        printFull.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                jobListener(fullText,"full");
+            }
+        });
+
+        selectHalf.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                selectFile(halfText);
+            }
+        });
+
+        printHalf.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                jobListener(halfText,"half");
+            }
+        });
+
+        selectFour.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                selectFile(fourText);
+            }
+        });
+
+        printFour.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                jobListener(fourText,"four");
+            }
+        });
+
+//        printAll.addActionListener(new ActionListener() {
+//            @Override
+//            public void actionPerformed(ActionEvent e) {
+//                jobListener(fullText,"full");
+//                jobListener(halfText,"half");
+//                jobListener(fourText,"four");
+//            }
+//        });
+
+        clearAll.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                tips.setText("");
+            }
+        });
+    }
+
+    public void selectFile(JTextField jTextField){
+        JFileChooser jFileChooser = new JFileChooser(".");
+        jFileChooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
+        int result = jFileChooser.showOpenDialog(null);
+        if (result == jFileChooser.APPROVE_OPTION) {
+            File file = jFileChooser.getSelectedFile();
+            String path = file.getAbsolutePath();
+            jTextField.setText(path);
+        } else {
+        }
+    }
+
+    public void jobListener(final JTextField jTextField, final String string){
+        boolean a = printerJob.printDialog();
+        if (a) {
+            new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    try {
+                        if (string.equals("full")){
+                            new Print_Full().printFull(jTextField.getText(), printerJob);
+                        }else if (string.equals("half")){
+                            new Print_Half().printHalf(jTextField.getText(), printerJob);
+                        }else {
+                            new Print_Four().printFour(jTextField.getText(), printerJob);
+                        }
+                    } catch (PrinterException | IOException ex) {
+                        ex.printStackTrace();
+                    }
+                }
+            }).start();
+        } else {
+            System.out.println(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss ：").format(System.currentTimeMillis()) + "***你取消了打印***");
         }
     }
 }
