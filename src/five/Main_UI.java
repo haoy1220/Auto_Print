@@ -17,9 +17,9 @@ public class Main_UI extends JFrame {
     static PrinterJob printerJob = PrinterJob.getPrinterJob();
 
     private JScrollPane jScrollPane;
-    private static String fullPath = ".\\电子发票\\";
-    private static String halfPath = ".\\电子发票\\";
-    private static String fourPath = ".\\电子发票\\";
+    private static String fullPath = ".\\";
+    private static String halfPath = ".\\";
+    private static String fourPath = ".\\";
 
     private JLabel fullLabel;
     private JTextField fullText;
@@ -46,7 +46,7 @@ public class Main_UI extends JFrame {
     }
 
     public Main_UI() {
-        super("自动排版打印工具v1.1--综测二部 温志浩");
+        super("自动排版打印工具v1.2--综测二部 温志浩");
         this.init();
         this.initListener();
 
@@ -60,7 +60,7 @@ public class Main_UI extends JFrame {
         //整页
         {
             fullLabel = new JLabel("整页打印路径");
-            fullText = new JTextField(fullPath,20);
+            fullText = new JTextField(fullPath,25);
             selectFull = new JButton("选择文件夹");
             printFull = new JButton("打印");
 
@@ -74,7 +74,7 @@ public class Main_UI extends JFrame {
         //半页
         {
             halfLabel = new JLabel("半页打印路径");
-            halfText = new JTextField(halfPath,20);
+            halfText = new JTextField(halfPath,25);
             selectHalf = new JButton("选择文件夹");
             printHalf = new JButton("打印");
 
@@ -88,7 +88,7 @@ public class Main_UI extends JFrame {
         //1/4页
         {
             fourLabel = new JLabel("1/4页打印路径");
-            fourText = new JTextField(fourPath,20);
+            fourText = new JTextField(fourPath,25);
             selectFour = new JButton("选择文件夹");
             printFour = new JButton("打印");
 
@@ -110,8 +110,15 @@ public class Main_UI extends JFrame {
         //记录框
         {
             tips = new JTextArea(16, 45);
-            tips.setText("说明：\n" +
-                    "1.");
+            tips.setText("-----------说明------------------\n" +
+                    "1.选定文件夹，打印即可；\n" +
+                    "\n" +
+                    "2.整页打印指一张图片打印成一页；\n" +
+                    "\n" +
+                    "3.半页打印指两张图片打印成一页；\n" +
+                    "\n" +
+                    "4.1/4页打印指四张图片打印成一页.\n" +
+                    "--------------------------------\n\n" );
             JTextAreaOutputStream out = new JTextAreaOutputStream(tips);
             System.setOut(new PrintStream(out));//设置输出重定向
             tips.setLocation(10, 300);

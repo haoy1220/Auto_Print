@@ -2,76 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90997756-fe82-4ec8-bcc0-a59a5870fbd3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/five/Print_Full.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Print_Picture.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Print_Picture.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Print_Picture_jar/自动排版打印工具.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Print_Picture_jar/自动排版打印工具.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/META-INF/Print_Picture.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/META-INF/Print_Picture.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/first/Find_Picture.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/first/Find_Picture.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/first/Print_Bill_Jpg.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/first/Print_Bill_Jpg.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/first/Print_Bill_Png.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/first/Print_Bill_Png.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/first/Print_Screener_Jpg.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/first/Print_Screener_Jpg.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/first/Print_Screener_Png.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/first/Print_Screener_Png.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Find_Picture.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/five/Find_Picture.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Interface$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Interface$2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Interface$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Interface$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Interface$4$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Interface$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Interface$5$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Interface$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Interface$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Interface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/JTextAreaOutputStream$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/five/JTextAreaOutputStream$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/JTextAreaOutputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/five/JTextAreaOutputStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Main_UI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/five/Main_UI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/PDF_Picture.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/five/PDF_Picture.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Print_Bill.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Print_Screener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Find_Picture.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/four/Find_Picture.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface$2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface$4$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface$4$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface$5$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface$5$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/JTextAreaOutputStream$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/four/JTextAreaOutputStream$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/JTextAreaOutputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/four/JTextAreaOutputStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/PDF_Picture.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/four/PDF_Picture.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Print_Bill.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/four/Print_Bill.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Print_Screener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/four/Print_Screener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/second/Find_Picture.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/second/Find_Picture.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/second/Print_Bill.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/second/Print_Bill.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/second/Print_Screener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/second/Print_Screener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Find_Picture.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/third/Find_Picture.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$4$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$4$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$5$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$5$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/JTextAreaOutputStream$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/third/JTextAreaOutputStream$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/JTextAreaOutputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/third/JTextAreaOutputStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Print_Bill.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/third/Print_Bill.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Print_Screener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/third/Print_Screener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/five/Find_Picture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/five/Find_Picture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/five/Interface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Print_Picture_jar/自动排版打印工具.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/META-INF/Print_Picture.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/first/Find_Picture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/first/Print_Bill_Jpg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/first/Print_Bill_Png.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/first/Print_Screener_Jpg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/first/Print_Screener_Png.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Find_Picture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/JTextAreaOutputStream$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/JTextAreaOutputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Main_UI$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Main_UI$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Main_UI$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Main_UI$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Main_UI$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Main_UI$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Main_UI$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Main_UI$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Main_UI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/PDF_Picture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Print_Four.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Print_Full.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Print_Half.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Find_Picture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface$2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface$4$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface$5$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/JTextAreaOutputStream$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/JTextAreaOutputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/PDF_Picture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Print_Bill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Print_Screener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/second/Find_Picture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/second/Print_Bill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/second/Print_Screener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Find_Picture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$4$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$5$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/JTextAreaOutputStream$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/JTextAreaOutputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Print_Bill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Print_Screener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/bill.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/screnner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/自动排版打印工具.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/five/Main_UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/five/Main_UI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/five/Print_Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/five/Print_Half.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/five/Print_Screener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/five/Print_Four.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/four/Interface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/four/Interface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/third/Interface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/third/Interface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/five/PDF_Picture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/five/PDF_Picture.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,116 +95,6 @@
   <component name="FavoritesManager">
     <favorites_list name="Print_Picture" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/five/Main_UI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2492">
-              <caret line="113" column="23" selection-start-line="113" selection-start-column="23" selection-end-line="113" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4461#4624#0" expanded="true" />
-                <element signature="e#4623#4624#0" expanded="true" />
-                <element signature="e#4664#4820#0" expanded="true" />
-                <element signature="e#4819#4820#0" expanded="true" />
-                <element signature="e#5559#5722#0" expanded="true" />
-                <element signature="e#5721#5722#0" expanded="true" />
-                <element signature="e#5762#5918#0" expanded="true" />
-                <element signature="e#5917#5918#0" expanded="true" />
-                <element signature="e#6657#6820#0" expanded="true" />
-                <element signature="e#6819#6820#0" expanded="true" />
-                <element signature="e#6860#7025#0" expanded="true" />
-                <element signature="e#7024#7025#0" expanded="true" />
-                <element signature="e#6024#6169#0" expanded="true" />
-                <element signature="e#6168#6169#0" expanded="true" />
-                <element signature="e#8316#8670#0" expanded="true" />
-                <element signature="e#8669#8670#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/five/Find_Picture.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/five/Print_Full.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="102" column="151" selection-start-line="102" selection-start-column="151" selection-end-line="102" selection-end-column="151" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/five/Print_Half.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="117" column="153" lean-forward="true" selection-start-line="117" selection-start-column="153" selection-end-line="117" selection-end-column="153" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/five/PDF_Picture.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/five/Print_Four.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="129" column="153" selection-start-line="129" selection-start-column="153" selection-end-line="129" selection-end-column="153" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/third/Interface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="197" column="18" selection-start-line="197" selection-start-column="18" selection-end-line="197" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/four/Interface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="62" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/five/JTextAreaOutputStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -220,72 +105,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/five/Interface.java" />
-        <option value="$PROJECT_DIR$/src/four/Interface.java" />
-        <option value="$PROJECT_DIR$/src/third/Interface.java" />
-        <option value="$PROJECT_DIR$/src/five/Find_Picture.java" />
-        <option value="$PROJECT_DIR$/src/five/Main_UI.java" />
-        <option value="$PROJECT_DIR$/src/five/Print_Half.java" />
-        <option value="$PROJECT_DIR$/src/five/Print_Four.java" />
-        <option value="$PROJECT_DIR$/src/five/Print_Full.java" />
-      </list>
-    </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="980" />
-    <option name="height" value="1040" />
-  </component>
   <component name="ProjectId" id="1SufRNAA3HzEIo8sOXQg8JXLos1" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Print_Picture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Print_Picture" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Print_Picture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Print_Picture" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Print_Picture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Print_Picture" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="five" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Print_Picture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Print_Picture" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="four" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -293,7 +115,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -404,7 +226,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main_UI" />
-        <item itemvalue="Application.Interface (1)" />
         <item itemvalue="Application.Interface" />
         <item itemvalue="Application.Print_Bill" />
         <item itemvalue="Application.Print_Bill_Jpg" />
@@ -430,11 +251,9 @@
       <workItem from="1572573612527" duration="345000" />
       <workItem from="1572578053901" duration="13781000" />
       <workItem from="1572764127052" duration="13179000" />
+      <workItem from="1572830920102" duration="787000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13179000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -445,40 +264,6 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.20576407" />
-      <window_info id="Structure" order="1" sideWeight="0.5021097" side_tool="true" visible="true" weight="0.20576407" />
-      <window_info anchor="bottom" id="Messages" sideWeight="0.4953083" weight="0.3286119" />
-      <window_info anchor="bottom" id="Docker" sideWeight="0.49932975" weight="0.3286119" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" sideWeight="0.49932975" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.49932975" weight="0.3286119" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.50268096" side_tool="true" visible="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49731904" weight="0.3286119" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932975" weight="0.04249292" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" weight="0.3297587" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" weight="0.3297587" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" visible="true" weight="0.022788204" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -488,12 +273,6 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
@@ -518,199 +297,5 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/third/Interface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="197" column="18" selection-start-line="197" selection-start-column="18" selection-end-line="197" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/five/PDF_Picture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/five/Interface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1400">
-          <caret line="79" column="58" selection-start-line="79" selection-start-column="49" selection-end-line="79" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1508#2193#0" expanded="true" />
-            <element signature="e#2192#2193#0" expanded="true" />
-            <element signature="e#2360#3225#0" expanded="true" />
-            <element signature="e#2572#3009#0" expanded="true" />
-            <element signature="e#3008#3009#0" expanded="true" />
-            <element signature="e#3224#3225#0" expanded="true" />
-            <element signature="e#3739#4769#0" expanded="true" />
-            <element signature="e#4768#4769#0" expanded="true" />
-            <element signature="e#4952#5829#0" expanded="true" />
-            <element signature="e#5164#5613#0" expanded="true" />
-            <element signature="e#5612#5613#0" expanded="true" />
-            <element signature="e#5828#5829#0" expanded="true" />
-            <element signature="e#6010#6991#0" expanded="true" />
-            <element signature="e#6222#6775#0" expanded="true" />
-            <element signature="e#6774#6775#0" expanded="true" />
-            <element signature="e#6990#6991#0" expanded="true" />
-            <element signature="e#7574#7733#0" expanded="true" />
-            <element signature="e#7732#7733#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/five/JTextAreaOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/four/Interface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/five/Find_Picture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/five/Main_UI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2492">
-          <caret line="113" column="23" selection-start-line="113" selection-start-column="23" selection-end-line="113" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4461#4624#0" expanded="true" />
-            <element signature="e#4623#4624#0" expanded="true" />
-            <element signature="e#4664#4820#0" expanded="true" />
-            <element signature="e#4819#4820#0" expanded="true" />
-            <element signature="e#5559#5722#0" expanded="true" />
-            <element signature="e#5721#5722#0" expanded="true" />
-            <element signature="e#5762#5918#0" expanded="true" />
-            <element signature="e#5917#5918#0" expanded="true" />
-            <element signature="e#6657#6820#0" expanded="true" />
-            <element signature="e#6819#6820#0" expanded="true" />
-            <element signature="e#6860#7025#0" expanded="true" />
-            <element signature="e#7024#7025#0" expanded="true" />
-            <element signature="e#6024#6169#0" expanded="true" />
-            <element signature="e#6168#6169#0" expanded="true" />
-            <element signature="e#8316#8670#0" expanded="true" />
-            <element signature="e#8669#8670#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/five/Print_Four.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="129" column="153" selection-start-line="129" selection-start-column="153" selection-end-line="129" selection-end-column="153" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/five/Print_Full.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="102" column="151" selection-start-line="102" selection-start-column="151" selection-end-line="102" selection-end-column="151" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/five/Print_Half.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="117" column="153" lean-forward="true" selection-start-line="117" selection-start-column="153" selection-end-line="117" selection-end-column="153" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>Print_Picture:jar</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Print_Picture</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>lib</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

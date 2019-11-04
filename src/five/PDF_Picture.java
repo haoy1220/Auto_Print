@@ -28,7 +28,7 @@ public class PDF_Picture {
             System.out.println(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss ：").format(System.currentTimeMillis()) + file.getName() + "共有" + count + "页");
             for (int i = 0; i < count; i++) {
                 BufferedImage image = renderer.renderImageWithDPI(i, 296);
-                ImageIO.write(image, "png", new File(dest + File.separator + System.currentTimeMillis() + i + ".png"));
+                ImageIO.write(image, "png", new File(dest + File.separator + getFileNameWithoutSuffix(file) + "(" + i + ").png"));
                 System.out.println(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss ：").format(System.currentTimeMillis()) + "第" + (i + 1) + "页转化成功！");
             }
             System.out.println(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss ：").format(System.currentTimeMillis()) + file.getName() + "全部转换成功");
@@ -39,5 +39,10 @@ public class PDF_Picture {
                 document.close();
             }
         }
+    }
+
+    public static String getFileNameWithoutSuffix(File file) {
+        String file_name = file.getName();
+        return file_name.substring(0, file_name.lastIndexOf("."));
     }
 }
