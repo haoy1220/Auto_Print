@@ -91,13 +91,13 @@ public class Main_UI extends JFrame {
         {
             tips = new JTextArea(16, 45);
             tips.setText("-----------说明------------------\n" +
-                    "1.选定文件夹，打印即可；\n" +
+                    "1.选定文件夹，选择你想要的打印方式打印即可；\n" +
                     "\n" +
-                    "2.整页打印指一张图片打印成一页；\n" +
+                    "2.一张图片打印成一页：适合打印大小占满一页的图片或pdf；\n" +
                     "\n" +
-                    "3.半页打印指两张图片打印成一页；\n" +
+                    "3.两张图片打印成一页：适合打印发票那样大小的图片或pdf；\n" +
                     "\n" +
-                    "4.1/4页打印指四张图片打印成一页.\n" +
+                    "4.四张图片打印成一页：适合打印手机截图那样大小的图片或pdf.\n" +
                     "--------------------------------\n\n");
             JTextAreaOutputStream out = new JTextAreaOutputStream(tips);
             System.setOut(new PrintStream(out));//设置输出重定向
@@ -112,7 +112,7 @@ public class Main_UI extends JFrame {
             this.setVisible(true);
             this.setContentPane(jPanel);
 //            this.add(jPanel);
-            this.setSize(560, 450);
+            this.setSize(540, 450);
             // 屏幕居中
             int windowWidth = this.getWidth(); // 获得窗口宽
             int windowHeight = this.getHeight(); // 获得窗口高

@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90997756-fe82-4ec8-bcc0-a59a5870fbd3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/一张为一页.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/两张为一页.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/四张为一页.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/six/Find_Picture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/six/JTextAreaOutputStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/six/Main_UI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/six/PDF_Picture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/six/Print_Four.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/six/Print_Full.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/six/Print_Half.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Print_Picture_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Print_Picture_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/一张为一页.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/一张图片打印成一页.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/两张为一页.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/两张图片打印成一页.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/四张为一页.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/四张图片打印成一页.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/six/Main_UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/six/Main_UI.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,10 +62,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\IdeaProjects\Print_Picture\resources" />
+      <recent name="E:\IdeaProjects\Print_Picture\src" />
       <recent name="E:\IdeaProjects\Print_Picture\src\six" />
       <recent name="E:\IdeaProjects\Print_Picture\src\five" />
       <recent name="E:\IdeaProjects\Print_Picture\lib" />
-      <recent name="E:\IdeaProjects\Print_Picture\src\four" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="five" />
@@ -81,6 +73,7 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\Print_Picture\src" />
       <recent name="E:\IdeaProjects\Print_Picture\lib" />
       <recent name="E:\IdeaProjects\Print_Picture\src\third" />
       <recent name="E:\IdeaProjects\Print_Picture\test\third" />
