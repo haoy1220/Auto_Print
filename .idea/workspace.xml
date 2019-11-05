@@ -2,71 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90997756-fe82-4ec8-bcc0-a59a5870fbd3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/一张为一页.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/两张为一页.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/四张为一页.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/six/Find_Picture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/six/JTextAreaOutputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/six/Main_UI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/six/PDF_Picture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/six/Print_Four.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/six/Print_Full.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/six/Print_Half.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Print_Picture_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Print_Picture_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Print_Picture_jar/自动排版打印工具.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/META-INF/Print_Picture.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/first/Find_Picture.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/first/Print_Bill_Jpg.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/first/Print_Bill_Png.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/first/Print_Screener_Jpg.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/first/Print_Screener_Png.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Find_Picture.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/JTextAreaOutputStream$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/JTextAreaOutputStream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Main_UI$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Main_UI$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Main_UI$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Main_UI$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Main_UI$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Main_UI$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Main_UI$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Main_UI$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Main_UI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/PDF_Picture.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Print_Four.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Print_Full.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Print_Half.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Find_Picture.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface$2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface$4$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface$5$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/JTextAreaOutputStream$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/JTextAreaOutputStream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/PDF_Picture.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Print_Bill.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Print_Screener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/second/Find_Picture.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/second/Print_Bill.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/second/Print_Screener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Find_Picture.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$4$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$5$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/JTextAreaOutputStream$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/JTextAreaOutputStream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Print_Bill.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Print_Screener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/bill.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/screnner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/自动排版打印工具.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/five/Main_UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/five/Main_UI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/five/PDF_Picture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/five/PDF_Picture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -114,28 +62,28 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\Print_Picture\resources" />
+      <recent name="E:\IdeaProjects\Print_Picture\src\six" />
+      <recent name="E:\IdeaProjects\Print_Picture\src\five" />
       <recent name="E:\IdeaProjects\Print_Picture\lib" />
-      <recent name="E:\IdeaProjects\Print_Picture\src\third" />
-      <recent name="E:\IdeaProjects\Print_Picture\test\third" />
+      <recent name="E:\IdeaProjects\Print_Picture\src\four" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="five" />
       <recent name="four" />
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\IdeaProjects\Print_Picture\src\five" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\IdeaProjects\Print_Picture\lib" />
-      <recent name="E:\IdeaProjects\Print_Picture\src\four" />
-      <recent name="E:\IdeaProjects\Print_Picture\test" />
-      <recent name="E:\IdeaProjects\Print_Picture\src" />
+      <recent name="E:\IdeaProjects\Print_Picture\src\third" />
+      <recent name="E:\IdeaProjects\Print_Picture\test\third" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -150,7 +98,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main_UI">
+  <component name="RunManager" selected="Application.Main_UI (1)">
     <configuration name="Interface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="third.Interface" />
       <module name="Print_Picture" />
@@ -183,6 +131,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="five.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main_UI (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="six.Main_UI" />
+      <module name="Print_Picture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="six.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -225,6 +186,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main_UI (1)" />
         <item itemvalue="Application.Main_UI" />
         <item itemvalue="Application.Interface" />
         <item itemvalue="Application.Print_Bill" />
@@ -252,6 +214,7 @@
       <workItem from="1572578053901" duration="13781000" />
       <workItem from="1572764127052" duration="13179000" />
       <workItem from="1572830920102" duration="787000" />
+      <workItem from="1572832338074" duration="5060000" />
     </task>
     <servers />
   </component>
