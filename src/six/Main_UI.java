@@ -1,6 +1,7 @@
 package six;
 
 import javax.swing.*;
+import javax.swing.border.Border;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -13,7 +14,9 @@ import java.text.SimpleDateFormat;
 
 
 public class Main_UI extends JFrame {
-    private JPanel jPanel;
+    private JPanel jPanelNorth;
+    private JPanel jPanelCenter;
+    private JPanel jPanelSouth;
     static PrinterJob printerJob = PrinterJob.getPrinterJob();
 
     private JScrollPane jScrollPane;
@@ -38,7 +41,7 @@ public class Main_UI extends JFrame {
     }
 
     public Main_UI() {
-        super("自动排版打印工具v1.2--综测二部 温志浩");
+        super("自动排版打印工具v1.3--综测二部 温志浩");
         this.init();
         this.initListener();
 
@@ -46,7 +49,9 @@ public class Main_UI extends JFrame {
 
     public void init() {
         {
-            jPanel = new JPanel();
+            jPanelNorth = new JPanel();
+            jPanelCenter = new JPanel();
+            jPanelSouth = new JPanel();
             jScrollPane = new JScrollPane();
         }
         //整页
@@ -54,38 +59,30 @@ public class Main_UI extends JFrame {
             fullLabel = new JLabel("文件夹路径：");
             fileText = new JTextField(filePath, 30);
             selectFile = new JButton("选择文件夹");
-            printFull = new JButton("一张图片打印成一页");
 
-            jPanel.add(fullLabel);
-            jPanel.add(fileText);
-            jPanel.add(selectFile);
-            jPanel.add(printFull);
+            jPanelNorth.add(fullLabel);
+            jPanelNorth.add(fileText);
+            jPanelNorth.add(selectFile);
 
         }
 
         //半页
         {
-
+            printFull = new JButton("一张图片打印成一页");
             printHalf = new JButton("两张图片打印成一页");
-
-            jPanel.add(printHalf);
-
-        }
-
-        //1/4页
-        {
-
             printFour = new JButton("四张图片打印成一页");
-
-            jPanel.add(printFour);
+            jPanelCenter.add(printFull);
+            jPanelCenter.add(printHalf);
+            jPanelCenter.add(printFour);
 
         }
+
 
         //打印全部和清空记录
         {
             clearAll = new JButton("清空记录");
 
-            jPanel.add(clearAll);
+            jPanelSouth.add(clearAll);
         }
         //记录框
         {
@@ -97,7 +94,9 @@ public class Main_UI extends JFrame {
                     "\n" +
                     "3.两张图片打印成一页：适合打印发票那样大小的图片或pdf；\n" +
                     "\n" +
-                    "4.四张图片打印成一页：适合打印手机截图那样大小的图片或pdf.\n" +
+                    "4.四张图片打印成一页：适合打印手机截图那样大小的图片或pdf；\n" +
+                    "\n" +
+                    "5.打印前最好先了解一下打印排版是怎样的。\n" +
                     "--------------------------------\n\n");
             JTextAreaOutputStream out = new JTextAreaOutputStream(tips);
             System.setOut(new PrintStream(out));//设置输出重定向
@@ -106,11 +105,15 @@ public class Main_UI extends JFrame {
             tips.setEditable(false);
             tips.setSelectionStart(tips.getText().length());
             jScrollPane = new JScrollPane(tips);
-            jPanel.add(jScrollPane);
+            jPanelSouth.add(jScrollPane);
         }
         {
+            this.setLayout(new BorderLayout());
+            this.add(jPanelNorth, BorderLayout.NORTH);
+            this.add(jPanelCenter, BorderLayout.CENTER);
+            this.add(jPanelSouth, BorderLayout.SOUTH);
             this.setVisible(true);
-            this.setContentPane(jPanel);
+//            this.setContentPane(jPanel);
 //            this.add(jPanel);
             this.setSize(540, 450);
             // 屏幕居中
