@@ -1,7 +1,6 @@
 package six;
 
 import javax.swing.*;
-import javax.swing.border.Border;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -16,7 +15,9 @@ import java.text.SimpleDateFormat;
 public class Main_UI extends JFrame {
     private JPanel jPanelNorth;
     private JPanel jPanelCenter;
-    private JPanel jPanelSouth;
+
+    private JPanel jPaneln;
+    private JPanel jPanelc;
     static PrinterJob printerJob = PrinterJob.getPrinterJob();
 
     private JScrollPane jScrollPane;
@@ -51,18 +52,24 @@ public class Main_UI extends JFrame {
         {
             jPanelNorth = new JPanel();
             jPanelCenter = new JPanel();
-            jPanelSouth = new JPanel();
+            jPanelCenter.setLayout(new BorderLayout());
+//            jPanelSouth = new JPanel();
+            jPaneln = new JPanel();
+            jPanelc = new JPanel();
+
             jScrollPane = new JScrollPane();
         }
         //整页
         {
             fullLabel = new JLabel("文件夹路径：");
-            fileText = new JTextField(filePath, 30);
+            fileText = new JTextField(filePath, 25);
             selectFile = new JButton("选择文件夹");
+
 
             jPanelNorth.add(fullLabel);
             jPanelNorth.add(fileText);
             jPanelNorth.add(selectFile);
+
 
         }
 
@@ -71,21 +78,21 @@ public class Main_UI extends JFrame {
             printFull = new JButton("一张图片打印成一页");
             printHalf = new JButton("两张图片打印成一页");
             printFour = new JButton("四张图片打印成一页");
-            jPanelCenter.add(printFull);
-            jPanelCenter.add(printHalf);
-            jPanelCenter.add(printFour);
+
+            jPaneln.add(printFull);
+            jPaneln.add(printHalf);
+            jPaneln.add(printFour);
+            jPanelCenter.add(jPaneln, BorderLayout.NORTH);
+
+
 
         }
 
-
-        //打印全部和清空记录
-        {
-            clearAll = new JButton("清空记录");
-
-            jPanelSouth.add(clearAll);
-        }
         //记录框
         {
+            clearAll = new JButton("清空记录");
+            jPanelc.add(clearAll);
+
             tips = new JTextArea(16, 45);
             tips.setText("-----------说明------------------\n" +
                     "1.选定文件夹，选择你想要的打印方式打印即可；\n" +
@@ -105,17 +112,19 @@ public class Main_UI extends JFrame {
             tips.setEditable(false);
             tips.setSelectionStart(tips.getText().length());
             jScrollPane = new JScrollPane(tips);
-            jPanelSouth.add(jScrollPane);
+//            jPanelSouth.add(clearAll);
+            jPanelc.add(jScrollPane);
+            jPanelCenter.add(jPanelc,BorderLayout.CENTER);
         }
         {
             this.setLayout(new BorderLayout());
             this.add(jPanelNorth, BorderLayout.NORTH);
             this.add(jPanelCenter, BorderLayout.CENTER);
-            this.add(jPanelSouth, BorderLayout.SOUTH);
+//            this.add(jPanelCenter, BorderLayout.SOUTH);
             this.setVisible(true);
 //            this.setContentPane(jPanel);
 //            this.add(jPanel);
-            this.setSize(540, 450);
+            this.setSize(560, 460);
             // 屏幕居中
             int windowWidth = this.getWidth(); // 获得窗口宽
             int windowHeight = this.getHeight(); // 获得窗口高
