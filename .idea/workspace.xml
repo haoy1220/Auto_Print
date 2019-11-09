@@ -3,14 +3,77 @@
   <component name="ChangeListManager">
     <list default="true" id="90997756-fe82-4ec8-bcc0-a59a5870fbd3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Print_Picture_jar/Print_Picture.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Print_Picture_jar/Print_Picture.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/six/Main_UI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/six/Main_UI$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/six/Main_UI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/six/Main_UI$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/six/Main_UI$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/six/Main_UI$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/six/Main_UI$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/six/Main_UI$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/six/Main_UI$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/six/Main_UI$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/six/Main_UI$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/six/Main_UI$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/six/Main_UI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Print_Picture/six/Main_UI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Print_Picture_jar/Print_Picture.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/first/Find_Picture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/first/Print_Bill_Jpg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/first/Print_Bill_Png.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/first/Print_Screener_Jpg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/first/Print_Screener_Png.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Find_Picture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/JTextAreaOutputStream$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/JTextAreaOutputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Main_UI$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Main_UI$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Main_UI$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Main_UI$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Main_UI$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Main_UI$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Main_UI$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Main_UI$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Main_UI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/PDF_Picture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Print_Four.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Print_Full.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/five/Print_Half.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Find_Picture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface$2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface$4$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface$5$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Interface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/JTextAreaOutputStream$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/JTextAreaOutputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/PDF_Picture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Print_Bill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/four/Print_Screener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/second/Find_Picture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/second/Print_Bill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/second/Print_Screener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/six/Find_Picture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/six/JTextAreaOutputStream$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/six/JTextAreaOutputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/six/Main_UI$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/six/Main_UI$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/six/Main_UI$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/six/Main_UI$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/six/Main_UI$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/six/Main_UI$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/six/Main_UI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/six/PDF_Picture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/six/Print_Four.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/six/Print_Full.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/six/Print_Half.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Find_Picture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$4$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$5$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Interface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/JTextAreaOutputStream$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/JTextAreaOutputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Print_Bill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Print_Picture/third/Print_Screener.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/six/Main_UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/six/Main_UI.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,11 +97,32 @@
     <select />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="Print_Picture" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/six/Main_UI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/five/Main_UI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="224" column="8" selection-start-line="224" selection-start-column="8" selection-end-line="224" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -50,16 +134,78 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/six/Main_UI.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="540" />
+    <option name="y" value="72" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
+  </component>
   <component name="ProjectId" id="1SufRNAA3HzEIo8sOXQg8JXLos1" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Print_Picture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Print_Picture" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Print_Picture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Print_Picture" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Print_Picture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Print_Picture" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Print_Picture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Print_Picture" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="Print_Picture_jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Print_Picture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Print_Picture" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Print_Picture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Print_Picture" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="six" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hutubill" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -218,8 +364,12 @@
       <workItem from="1572922009497" duration="1145000" />
       <workItem from="1573032264921" duration="427000" />
       <workItem from="1573087504822" duration="2617000" />
+      <workItem from="1573267565679" duration="2324000" />
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2324000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -230,6 +380,41 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
+  <component name="ToolWindowManager">
+    <frame x="432" y="58" width="784" height="832" extended-state="0" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.5137741" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Duplicates" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Messages" weight="0.3286119" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33142856" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -239,6 +424,12 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
@@ -263,5 +454,94 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/five/Main_UI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="224" column="8" selection-start-line="224" selection-start-column="8" selection-end-line="224" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/six/Main_UI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>Print_Picture:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
