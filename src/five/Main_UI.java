@@ -46,7 +46,7 @@ public class Main_UI extends JFrame {
     }
 
     public Main_UI() {
-        super("自动排版打印工具v1.2--综测二部 温志浩");
+        super("自动排版打印工具v1.2");
         this.init();
         this.initListener();
 
