@@ -27,3 +27,8 @@
 ## 第六版
 
 重新调整了界面，使用了swing的布局来管理界面。
+
+
+## 借鉴博客
+
+[Java实现打印功能](https://www.cnblogs.com/gaopeng527/p/4357591.html)
