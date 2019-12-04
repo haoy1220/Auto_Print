@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="90997756-fe82-4ec8-bcc0-a59a5870fbd3" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="90997756-fe82-4ec8-bcc0-a59a5870fbd3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Print_Picture.iml" beforeDir="false" afterPath="$PROJECT_DIR$/自动排版打印工具.iml" afterDir="false" />
+    </list>
+>>>>>>> 53879bb3601b27b048682a6aafb5990ee3318576
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +34,7 @@
   <component name="FavoritesManager">
     <favorites_list name="Print_Picture" />
   </component>
+<<<<<<< HEAD
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
@@ -121,6 +128,8 @@
       </file>
     </leaf>
   </component>
+=======
+>>>>>>> 53879bb3601b27b048682a6aafb5990ee3318576
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -131,6 +140,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -146,10 +156,13 @@
     <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
+=======
+>>>>>>> 53879bb3601b27b048682a6aafb5990ee3318576
   <component name="ProjectId" id="1SufRNAA3HzEIo8sOXQg8JXLos1" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -210,6 +223,8 @@
       <pane id="PackagesPane" />
     </panes>
   </component>
+=======
+>>>>>>> 53879bb3601b27b048682a6aafb5990ee3318576
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -256,7 +271,7 @@
   <component name="RunManager" selected="Application.Main_UI (1)">
     <configuration name="Interface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="three.Interface" />
-      <module name="Print_Picture" />
+      <module name="自动排版打印工具" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="three.*" />
@@ -295,7 +310,7 @@
     </configuration>
     <configuration name="Main_UI (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="six.Main_UI" />
-      <module name="Print_Picture" />
+      <module name="自动排版打印工具" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="six.*" />
@@ -308,7 +323,7 @@
     </configuration>
     <configuration name="Main_UI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="five.Main_UI" />
-      <module name="Print_Picture" />
+      <module name="自动排版打印工具" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="five.*" />
@@ -321,7 +336,7 @@
     </configuration>
     <configuration name="Print_Bill" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="two.Print_Bill" />
-      <module name="Print_Picture" />
+      <module name="自动排版打印工具" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="two.*" />
@@ -334,7 +349,7 @@
     </configuration>
     <configuration name="Print_Bill_Jpg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="one.Print_Bill_Jpg" />
-      <module name="Print_Picture" />
+      <module name="自动排版打印工具" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -376,6 +391,7 @@
       <workItem from="1573087504822" duration="2617000" />
       <workItem from="1573267565679" duration="2324000" />
       <workItem from="1573375961141" duration="2029000" />
+<<<<<<< HEAD
       <workItem from="1573483523681" duration="20000" />
     </task>
     <servers />
@@ -383,6 +399,12 @@
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="4373000" />
   </component>
+=======
+      <workItem from="1573531096224" duration="115000" />
+    </task>
+    <servers />
+  </component>
+>>>>>>> 53879bb3601b27b048682a6aafb5990ee3318576
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -392,6 +414,7 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
+<<<<<<< HEAD
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
@@ -430,6 +453,8 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
+=======
+>>>>>>> 53879bb3601b27b048682a6aafb5990ee3318576
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -439,12 +464,6 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
@@ -470,6 +489,7 @@
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
+<<<<<<< HEAD
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/six/Print_Full.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -712,4 +732,6 @@
       </state>
     </states>
   </component>
+=======
+>>>>>>> 53879bb3601b27b048682a6aafb5990ee3318576
 </project>
